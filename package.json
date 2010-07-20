@@ -35,8 +35,9 @@
                 "node": ">=0.1.95"
             },
             "dependencies": {
-                "narwhal-node": ">=0.0.2"
-            }
+            },
+            "directories": { "lib": "./lib/narwhal" },
+            "main": "./lib/main"
         }
     }
 }
